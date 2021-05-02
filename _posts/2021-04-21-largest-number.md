@@ -1,0 +1,93 @@
+---
+layout: post
+title: [알고리즘] 프로그래머스 가장 큰 수
+date: 2021-04-21 18:34:10 +0700
+categories: [algorithm]
+---
+
+# 문제
+
+- 배열이 주어지고, 그 배열을 **하나의 결과로 이어붙여야** 하는데, 배열 값의 순서를 재배치 하는 **정렬** 문제!
+
+<img src=https://user-images.githubusercontent.com/47033052/115524358-03c06a00-a2c9-11eb-9093-297a10061ec0.png width=80% />
+
+# 문제 해결
+
+## 처음 내가 생각했던 방법
+
+1. `numbers` 원소들을 Int -> String
+
+2. String이 된 `numbers`들을 내림차순 정렬
+
+3. join으로 문자열 합쳐서 return
+
+### 코드
+
+``` swift
+import Foundation
+
+func solution(_ numbers:[Int]) -> String {
+    var answer: String = ""
+    
+    // numbers Int -> String
+    let numbersToString: [String] = numbers.map { String($0) }
+    
+    // String의 첫 숫자 기준으로 sort
+    let numbersToStringSorted = numbersToString.sorted(by: >)
+   
+  	answer = numbersToStringSorted.joined()
+    
+    return answer
+}
+```
+
+이게 될리가,, 내가 너무 쉽게 생각했다.
+
+### 생각치 못한 예외들
+
+- 모든 원소가 0인 경우
+  - 이렇게 되면 [0,0,0] -> "000"이 되버림
+- String으로 바꾼 원소들의 첫숫자가 같은 경우 (무조건 내림차순과 가장 큰 수 비례 X)
+  - [34, 3, 30]이라는 배열이 있을 때, 내림차순을 정렬을 적용하면
+    "34303"이 되지만 이는 가장 큰 수가 아님(가장 큰 수는 "34330")
+
+-> 원소 비교해서 정렬을 해야할 것 같음!
+
+## 두번째 방법
+
+- 비교해서 정렬을 하되, "**문자열로 합쳐 비교하여 재배치**" 진행
+
+1. 주어진 `numbers` 배열 정렬
+   1. 첫번째 정수값($0)과 두번째 정수값($1)을 String으로 변환시킨다음, 두 String을 붙여 하나의 문자열을 만들기
+   2. 첫번째 정수값을 먼저 배치한 경우와 두번째 정수값을 먼저 배치한 경우 중 Int로 변환했을 대 어느 값이 큰지 비교하여 정렬
+      Ex. [0, 9] -> "09"와 "90"을 Int로 변환하여 비교
+2. 정렬된 배열의 첫번째 값이 0인지 확인하여 0일 경우 "0" 출력
+   - 정렬한 첫번째값이 0 = 모든 배열의 값이 0일 경우
+3. 정렬된 배열의 값을 하나씩 꺼내서 하나의 문자열로 합치고(reduce) 반환
+
+### 코드
+
+``` swift
+import Foundation
+
+func solution(_ numbers:[Int]) -> String {
+    // 1. 주어진 numbers 비교하며 정렬
+    let numbersSorted = numbers.sorted {
+        Int("\($0)\($1)")! > Int("\($1)\($0)")!
+    }
+    // 2. 정렬된 배열의 첫번째 값이 0인지 확인하여 0일 경우 "0" 출력
+    if numbersSorted.first == 0 {
+        return "0"
+    }
+    // 3. 정렬된 배열의 값을 하나씩 꺼내서 하나의 문자열로 합치고(reduce) 반환
+    let answer = numbersSorted.reduce("") { $0 + "\($1)" }
+    
+    return answer
+}
+```
+
+### 결과
+
+- 오예٩(ˊᗜˋ)و  clear~
+
+<img src=https://user-images.githubusercontent.com/47033052/115530227-8b5ca780-a2ce-11eb-8c45-37e70ac0b0c0.png width=80% />
