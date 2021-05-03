@@ -1,8 +1,27 @@
 # activitys section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
-- name: 상명대학교 SK Lookie 3기 운영진/Android 팀장
+- name: 상명대학교 SK Lookie 3기
   link: https://github.com/lookiesmu
   date: 2020.01 - 2021.01
   job:  3기 운영진/Android 팀장
+  
+- name: 상명대학교 SK Lookie 2기
+  link: https://www.sklookie.com/
+  date: 2019.09 - 2020.02
+  job:  SK Lookie 리더그룹
+  
+- name: 상명대학교 멋쟁이 사자처럼 7기
+  link: https://www.likelion.net/univ
+  date: 2019.01 - 2019.12
+  job:  Android 개발
 
+- name: 2019 특별학기 뇌신경공학 워크숍 COC프로젝트
+  link: https://github.com/HeegeePark/Vehicle-environment-function-controller-using-SSVEP
+  date: 2019.01
+  job:  뇌파 신호 기반 hci 시스템 기획, 디자인, 개발
+  
+- name: 2018 제 4회 COC프로젝트
+  link: https://github.com/HeegeePark/EmotionalDiary
+  date: 2018.08
+  job:  심박 신호 기반 hci 시스템 기획, 디자인, 개발
