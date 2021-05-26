@@ -13,7 +13,7 @@ categories: [Swift]
 ## Index 관련 value
 
 - `startIndex` : 첫번째 문자의 인덱스
-  - `endIndex` : 마지막 문자 다음의 인덱스
+- `endIndex` : 마지막 문자 다음의 인덱스
 
 ### 예제
 
