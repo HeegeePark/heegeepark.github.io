@@ -92,7 +92,7 @@ class ViewController: UIViewController {
 2. 사진을 찍었을 때 크기 조절 가능한 뷰
 3. 비디오를 찍었을 때 시작-끝 구간 조절 가능한 뷰
 
-<img src="https://user-images.githubusercontent.com/47033052/122907939-95625b80-d38e-11eb-8406-49845b89fe26.PNG" width="30%"/> <img src="https://user-images.githubusercontent.com/47033052/122907902-8e3b4d80-d38e-11eb-92a1-7951af4f9616.PNG" width="30%"/> <img src="https://user-images.githubusercontent.com/47033052/122907931-94c9c500-d38e-11eb-82b1-e24207a4dfbc.PNG" width="30%"/>
+<img src="https://user-images.githubusercontent.com/47033052/122907939-95625b80-d38e-11eb-8406-49845b89fe26.PNG" width="15%"/> <img src="https://user-images.githubusercontent.com/47033052/122907902-8e3b4d80-d38e-11eb-92a1-7951af4f9616.PNG" width="15%"/> <img src="https://user-images.githubusercontent.com/47033052/122907931-94c9c500-d38e-11eb-82b1-e24207a4dfbc.PNG" width="15%"/>
 
 - 라이브러리 접근하여 사진과 비디오 저장하는 법은 이번에 구현하지 않아서 다음에 기회가 되면 보충할 것이다..! 🌝
 
