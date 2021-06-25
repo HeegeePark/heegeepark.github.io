@@ -7,7 +7,7 @@ remote_theme : renyuanz/leonids
 title: 희지의 iOS 개발 블로그
 email: hg6259@gmail.com
 description: iOS 개발자를 꿈꾸는 박희지 블로그입니다🍏
-url: https://heegeepark.github.io/
+url: https://heegeepark.github.io
 baseurl : ""
 keywords: ["blog", "jekyll"]
 
@@ -39,7 +39,7 @@ owner:
   name: 박희지
   avatar: avatar.png
   job: "iOS 개발자 꿈나무 🍎"
-  bio: "열심히 공부해서 애플 정복하기⛰"
+  bio: "사과 농장 가꾸는 중 🌳"
   email: hg6259@gmail.com
   disqus-shortname:
   twitter: #username
