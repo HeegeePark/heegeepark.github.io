@@ -7,7 +7,7 @@ remote_theme : renyuanz/leonids
 title: 희지의 iOS 개발 블로그
 email: hg6259@gmail.com
 description: iOS 개발자를 꿈꾸는 박희지 블로그입니다🍏
-url: https://heegeepark.github.io
+url: https://heegeepark.github.io/
 baseurl : ""
 keywords: ["blog", "jekyll"]
 
