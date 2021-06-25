@@ -2,6 +2,7 @@
 layout: post
 title: "[iOS] UIImagePickerController로 사진∙비디오 기록하기"
 date: 2021-06-22 18:34:10 +0700
+excerpt: 기본카메라 구현 시 참고하기 위한
 categories: [iOS]
 ---
 

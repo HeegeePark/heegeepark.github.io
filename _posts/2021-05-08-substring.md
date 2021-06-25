@@ -2,6 +2,7 @@
 layout: post
 title: "[Swift] swift에서 문자열 자르기"
 date: 2021-05-08 18:34:10 +0700
+excerpt: index∙substring 정복!
 categories: [Swift]
 ---
 
