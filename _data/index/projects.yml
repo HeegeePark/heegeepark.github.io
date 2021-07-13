@@ -1,5 +1,5 @@
 - name: 우유 맛이 궁금해? MilkGuide 🥛
-  descr: "사진 한 장으로 우유 맛을 알 수 있다!?? MilkGuide는 직접 마셔보지 않으면 우유 종류를 알기 어려운 시각장애인을 위해, 우유 사진을 AI가 분석하여 알려주는 iOS 앱입니다. 앱 UI 디자인 및 iOS 앱 개발을 맡았습니다. 이미지 분류 모델은 CoreML로 Pytorch 모델을 mlmodel 포맷으로 변환하여 앱 내에 적용하였습니다. 사용자가 "사진 찍기" 버튼을 누르면 AVFoundation 프레임워크를 이용하여 만든 카메라 뷰가 뜨고, 버튼을 눌러 촬영된 이미지를 CoreML의 VNCoreMLRequest에 넘겨 예측 결과를 받습니다. 이 결괏값은 사용자가 찍은 사진이 나오는 이미지 뷰와 함께 레이블로 제공됩니다. 현재도 고도화된 사용자 경험 증진을 위해 노력중입니다."
+  descr: "사진 한 장으로 우유 맛을 알 수 있다!?? MilkGuide는 직접 마셔보지 않으면 우유 종류를 알기 어려운 시각장애인을 위해, 우유 사진을 AI가 분석하여 알려주는 iOS 앱입니다. 앱 UI 디자인 및 iOS 앱 개발을 맡았습니다. 이미지 분류 모델은 CoreML로 Pytorch 모델을 mlmodel 포맷으로 변환하여 앱 내에 적용하였습니다. 사용자가 [사진 찍기] 버튼을 누르면 AVFoundation 프레임워크를 이용하여 만든 카메라 뷰가 뜨고, 버튼을 눌러 촬영된 이미지를 CoreML의 VNCoreMLRequest에 넘겨 예측 결과를 받습니다. 이 결괏값은 사용자가 찍은 사진이 나오는 이미지 뷰와 함께 레이블로 제공됩니다. 현재도 고도화된 사용자 경험 증진을 위해 노력중입니다."
   github: https://github.com/Deep-Dive-to-App/Milkathon
 
 - name: 나를 맞춰봐 Guess Me 🌝
