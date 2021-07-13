@@ -1,5 +1,9 @@
+- name: 우유 맛이 궁금해? MilkGuide 🥛
+  descr: "사진 한 장으로 우유 맛을 알 수 있다!?? MilkGuide는 직접 마셔보지 않으면 우유 종류를 알기 어려운 시각장애인을 위해, 우유 사진을 AI가 분석하여 알려주는 iOS 앱입니다. 앱 UI 디자인 및 iOS 앱 개발을 맡았습니다. 이미지 분류 모델은 CoreML로 Pytorch 모델을 mlmodel 포맷으로 변환하여 앱 내에 적용하였습니다. 사용자가 "사진 찍기" 버튼을 누르면 AVFoundation 프레임워크를 이용하여 만든 카메라 뷰가 뜨고, 버튼을 눌러 촬영된 이미지를 CoreML의 VNCoreMLRequest에 넘겨 예측 결과를 받습니다. 이 결괏값은 사용자가 찍은 사진이 나오는 이미지 뷰와 함께 레이블로 제공됩니다. 현재도 고도화된 사용자 경험 증진을 위해 노력중입니다."
+  github: https://github.com/Deep-Dive-to-App/Milkathon
+
 - name: 나를 맞춰봐 Guess Me 🌝
-  descr: "나만의 퀴즈를 생성하고 친구들과 공유해 보세요! Guess Me는 나에 관한 퀴즈를 내고 친구의 퀴즈를 풀 수 있는 Android 토이 프로젝트 앱입니다. 레이아웃 디자인 및 개발을 맡았으며, 구현한 기술로는 새로운 퀴즈 생성 시 서버로부터 GET()한 랜덤 5가지 퀴즈 문항 RecyclerView로 띄우기, 마이페이지에서의 나의 퀴즈를 푼 친구들의 점수 순위 제공(RecyclerView), 퀴즈 삭제 및 로그아웃 등이 있습니다. 동아리 SK Lookie에서 활동을 하며 비즈니스 모델 설계 및 Android 앱 개발에 참여하였습니다."
+  descr: "나만의 퀴즈를 생성하고 친구들과 공유해 보세요! Guess Me는 나에 관한 퀴즈를 내고 친구의 퀴즈를 풀 수 있는 Android 토이 프로젝트 앱입니다. 레이아웃 디자인 및 Android 개발을 맡았으며, 구현한 기술로는 새로운 퀴즈 생성 시 서버로부터 GET()한 랜덤 5가지 퀴즈 문항 RecyclerView로 띄우기, 마이페이지에서의 나의 퀴즈를 푼 친구들의 점수 순위 제공(RecyclerView), 퀴즈 삭제 및 로그아웃 등이 있습니다. 동아리 SK Lookie에서 활동을 하며 비즈니스 모델 설계 및 Android 앱 개발에 참여하였습니다."
   github: https://github.com/lookiesmu/GuessMe_front
   
 - name: 뇌파 기반 사용자 인증(Authentication) 시스템 🧠
