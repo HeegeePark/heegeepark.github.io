@@ -27,9 +27,11 @@ tags: [Xcode]
 
 ### ⌘ + ⇧ + Y
 
-## 5️⃣ Assistant Editor 켜기/끄기
+## 5️⃣ Editor 켜기/끄기
 
-### 켜기 : ⌘ + ⌥ + ↩︎
+### Assistant 켜기 : ⌘ + ⌥ + ⌃ + ↩︎
+
+### Preview 켜기 : ⌘ + ⌥ + ↩︎
 
 ### 끄기 : ⌘ + ↩︎
 
