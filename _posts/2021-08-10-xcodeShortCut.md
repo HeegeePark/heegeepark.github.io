@@ -19,15 +19,15 @@ categories: [iOS]
 
 ### ⌘ + 0
 
-## 2️⃣ Utilities area(오른쪽 부분) 접기/펴기
+## 3️⃣ Utilities area(오른쪽 부분) 접기/펴기
 
 ### ⌘ + ⌥ + 0
 
-## 2️⃣ Debug area(중앙하단 부분) 접기/펴기
+## 4️⃣ Debug area(중앙하단 부분) 접기/펴기
 
 ### ⌘ + ⇧ + Y
 
-## 2️⃣ Assistant Editor 켜기/끄기
+## 5️⃣ Assistant Editor 켜기/끄기
 
 ### 켜기 : ⌘ + ⌥ + ↩︎
 
