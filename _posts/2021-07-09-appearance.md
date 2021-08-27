@@ -15,7 +15,7 @@ iOS 13 버전 이상부터 다크모드가 제공되면서, 다크모드로 설�
 
 ## 2️⃣ 해결 방법
 
-`Info.plist`에서 **Appearance** 항목을 추가한 후 이에 대한 value를 **Ligth**로 설정하기.
+`Info.plist`에서 **Appearance** 항목을 추가한 후 이에 대한 value를 **Light**로 설정하기.
 
 <img src="https://user-images.githubusercontent.com/47033052/124722328-e81e4480-df44-11eb-936a-d0612713e2d4.png" width="50%"/>
 
