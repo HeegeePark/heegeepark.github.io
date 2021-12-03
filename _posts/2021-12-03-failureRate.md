@@ -4,7 +4,7 @@ title: "[알고리즘] 프로그래머스 실패율 swift 풀이"
 date: 2021-12-03 16:34:10 +0700
 excerpt: 2019 카카오 블라인드 기출
 categories: [Algorithm]
-tags: [Algorithm, Kakao, BFS]
+tags: [Algorithm, Kakao, 정렬]
 ---
 
 ## 1️⃣ 문제
