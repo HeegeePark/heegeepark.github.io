@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[알고리즘] 프로그래머스 디스크 컨트롤러 swift 풀이"
-date: 2022-03-16 16:34:10 +0700
+date: 2022-03-16 14:34:10 +0700
 excerpt: Heap 문제를 정렬로 풀기!
 categories: [Algorithm]
 tags: [Algorithm, 정렬]
