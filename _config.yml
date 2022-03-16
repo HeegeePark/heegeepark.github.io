@@ -10,6 +10,7 @@ description: iOS 개발자를 꿈꾸는 박희지 블로그입니다🍏
 url: https://heegeepark.github.io/
 baseurl : ""
 keywords: ["blog", "jekyll"]
+future: true
 
 
 #
