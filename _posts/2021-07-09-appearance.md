@@ -1,5 +1,5 @@
 ---
-layout: post
+slayout: post
 title: "[iOS] 다크모드에서 상태바 설정"
 date: 2021-07-09 14:34:10 +0700
 excerpt: xcode light모드 설정
