@@ -2,7 +2,7 @@
 layout: post
 title: "[알고리즘] 리트코드 Longest Palindromic Substring swift 풀이"
 date: 2022-05-16 14:34:10 +0700
-excerpt: [DP] 거꾸로 해도 똑같은(팰린드롬) 가장 긴 부분 문자열 찾기
+excerpt: 거꾸로 해도 똑같은(팰린드롬) 가장 긴 부분 문자열 찾기
 categories: [Algorithm]
 tags: [Algorithm, DP]
 ---
