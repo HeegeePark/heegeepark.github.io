@@ -125,7 +125,7 @@ func solution(_ s:String) -> String {
 
 ## 3️⃣ 이 문제를 풀면서 되새긴 점
 
-### 찐 .split(separator: " ")과 .components(separatedBy: " ")의 차이점
+### .split(separator: " ")과 .components(separatedBy: " ")의 찐 차이점
 
 기존에는 결과는 동일하나 return type만 다른 줄 알았는데, 연속된 공백이 있을 시 결과도 다르다!
 
