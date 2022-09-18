@@ -1,6 +1,11 @@
 # activitys section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+- name: 라이징 프로그래머 with SeSAC 4기
+  link: 
+  date: 2022.06 - ing
+  job:  iOS 개발
+
 - name: 상명대학교 SK Lookie 3기
   link: https://github.com/lookiesmu
   date: 2020.01 - 2021.01
