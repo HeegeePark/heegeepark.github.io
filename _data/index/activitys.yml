@@ -2,7 +2,7 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
 - name: SeSAC iOS 앱 개발자 데뷔 과정 4기
-  link: https://sesac.seoul.kr/course/active/detail.do
+  link: https://sesac.seoul.kr/course/active/detail.do?courseActiveSeq=1654&srchCategoryTypeCd=&courseMasterSeq=378&currentMenuId=900002025
   date: 2023.12 - 2024.05
   job:  iOS 개발
 
