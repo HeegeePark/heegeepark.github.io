@@ -3,7 +3,8 @@ layout: post
 title: "[iOS] SwiftUI 구조 이해하기"
 date: 2024-04-15 19:34:10 +0700
 excerpt: SwiftUI 개발한다면 꼭 알아야 할 것
-categories: [iOS, SwiftUI]
+categories: [iOS]
+tags: [iOS, SwiftUI]
 ---
 
 > 참조
@@ -93,7 +94,7 @@ View의 속성이 변경될 때마다 body의 타입이 변경되는데, 주범�
 
 - body는 구조체이고, 구조체의 연산 프로퍼티의 getter 속성은 `nonmutationg`이기 때문!
 
-![image](https://github.com/HeegeePark/SeSAC/assets/47033052/b2f8c514-ca03-46e7-aa46-1f3184a9ad97)
+<img src="https://github.com/HeegeePark/SeSAC/assets/47033052/b2f8c514-ca03-46e7-aa46-1f3184a9ad97" alt="image" style="zoom: 50%;" />
 
 ### 그렇다면, mutating getter로 변경하면 해결가능?
 
@@ -104,10 +105,10 @@ View 프로토콜은 body프로퍼티를 가지고 있어야하는데, 없다는
 - body가 있는데 없다고 뜨는 이유
   - View 프로토콜 내 규약된 body는 mutating get으로 선언되어 있지 않아, body를 못찾는 것임.
 
-![image](https://github.com/HeegeePark/SeSAC/assets/47033052/410efc25-0415-4b76-9732-cd9766d10be6)
+<img src="https://github.com/HeegeePark/SeSAC/assets/47033052/410efc25-0415-4b76-9732-cd9766d10be6" alt="image" style="zoom: 50%;" />
 
 ### body의 프로퍼티 값 변경 해결 방법
 
 View의 상태를 저장하고 수정하는 방식인 `@State` 또는 `@Binding`으로 해결
 
-![image-20240415200714468](/Users/heegeepark/Library/Application Support/typora-user-images/image-20240415200714468.png)
+<img src="https://github.com/HeegeePark/SeSAC/assets/47033052/549983c1-846d-43b3-9bdc-1068e0eca0dc" alt="image" style="zoom:25%;" />
