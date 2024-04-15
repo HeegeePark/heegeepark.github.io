@@ -8,7 +8,9 @@ tags: [iOS, SwiftUI]
 ---
 
 > 참조
+>
 > 새싹 강의자료
+>
 > [SwiftUI — some View에서 some은 뭐고, 왜 필요할까?](https://minsson.medium.com/swiftui-some-view%EC%97%90%EC%84%9C-some%EC%9D%80-%EB%AD%90%EA%B3%A0-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%A0%EA%B9%8C-67c25f5452c)
 
 ## 0️⃣ SwiftUI란?
